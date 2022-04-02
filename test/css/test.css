@@ -1,0 +1,13 @@
+html {
+  position: relative;
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+  background: red;
+}
+
+body {
+  position: relative;
+  display: flex;
+  color: red;
+}

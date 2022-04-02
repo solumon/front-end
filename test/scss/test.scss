@@ -1,0 +1,25 @@
+$nav-color: #f90;
+
+nav {
+  $width: 100px;
+
+  position: relative;
+  display: flex;
+  width: $width;
+  color: $nav-color;
+  background: #eee;
+}
+
+#content {
+  article {
+    h1 { color: #333; }
+    p { margin-bottom: 1.4em; }
+  }
+
+  aside {
+    color: red;
+    background-color: #eee;
+
+    body.ie & { color: green; }
+  }
+}

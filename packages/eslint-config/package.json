@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules **/*/node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
