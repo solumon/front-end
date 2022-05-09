@@ -1,11 +1,16 @@
 {
   "name": "@solumon/stylelint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "",
   "main": "index.js",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/solumon/lint-config/blob/main/packages/stylelint-config/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solumon/lint-config/tree/main/packages/stylelint-config"
   },
   "keywords": [],
   "author": "solumon",
