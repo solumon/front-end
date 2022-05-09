@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "stylelint": "^14.8.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.8.2"
   }
 }
