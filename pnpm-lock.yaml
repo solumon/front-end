@@ -32,14 +32,12 @@ importers:
       postcss-html: ^1.4.1
       stylelint: ^14.8.2
       stylelint-config-recess-order: ^3.0.0
-      stylelint-config-standard: ^25.0.0
       stylelint-config-standard-scss: ^3.0.0
       stylelint-config-standard-vue: ^1.0.0
     dependencies:
       postcss: 8.4.13
       postcss-html: 1.4.1
       stylelint-config-recess-order: 3.0.0_stylelint@14.8.2
-      stylelint-config-standard: 25.0.0_stylelint@14.8.2
       stylelint-config-standard-scss: 3.0.0_an3wuxxoixcpivwd2moqhhly5q
       stylelint-config-standard-vue: 1.0.0_wdct7lrbpt3f5qukrrtdrzdofe
     devDependencies:
