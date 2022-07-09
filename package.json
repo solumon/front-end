@@ -6,9 +6,7 @@
     "eslint:fix": "eslint packages/eslint-config/test/**/*.{js,ts,vue} --fix",
     "eslint:quiet": "eslint packages/eslint-config/test/**/*.{js,ts,vue}",
     "stylelint:fix": "stylelint packages/eslint-config/test/**/*.{scss,css,vue} --fix",
-    "stylelint:quiet": "stylelint packages/eslint-config/test/**/*.{scss,css,vue}",
-    "publish:stylelint-config": "npm publish --filter @solumon/stylelint-config",
-    "publish:eslint-config": "npm publish --filter @solumon/eslint-config"
+    "stylelint:quiet": "stylelint packages/eslint-config/test/**/*.{scss,css,vue}"
   },
   "keywords": [
     "monorepo",
