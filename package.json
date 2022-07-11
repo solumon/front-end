@@ -14,5 +14,8 @@
   ],
   "author": "solumon",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "@solumon/eslint-config-base": "workspace:*",
+    "eslint": "^8.15.0"
+  }
 }
