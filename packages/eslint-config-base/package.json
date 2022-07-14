@@ -1,0 +1,41 @@
+{
+    "name": "@solumon/eslint-config-base",
+    "version": "1.0.0",
+    "description": "eslint config",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rm -rf node_modules **/*/node_modules"
+    },
+    "keywords": [
+        "eslint",
+        "airbnb-base",
+        "typescript",
+        "vue"
+    ],
+    "files": [
+        "./index.js"
+    ],
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "homepage": "https://github.com/solumon/lint-config/blob/main/packages/eslint-config-base/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/solumon/lint-config/tree/main/packages/eslint-config-base"
+    },
+    "author": "solumon",
+    "license": "ISC",
+    "dependencies": {
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-vue": "^8.7.1",
+        "vue-eslint-parser": "^8.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.15.0"
+    },
+    "peerDependencies": {
+        "eslint": "^8.15.0"
+    }
+}

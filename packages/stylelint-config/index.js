@@ -5,17 +5,18 @@ module.exports = {
     "stylelint-config-standard-vue"
   ],
   rules: {
-    'no-descending-specificity': null,
-    'selector-pseudo-element-no-unknown': [
+    "indentation": 4, 
+    "no-descending-specificity": null,
+    "selector-pseudo-element-no-unknown": [
       true,
       {
-        ignorePseudoElements: ['v-deep'],
-      },
+        ignorePseudoElements: ["v-deep"]
+      }
     ],
-    'selector-pseudo-class-no-unknown': [
+    "selector-pseudo-class-no-unknown": [
       true,
       {
-        ignorePseudoClasses: ['deep'],
+        ignorePseudoClasses: ["deep"],
       },
     ],
   },
