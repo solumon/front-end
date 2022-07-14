@@ -1,21 +1,24 @@
 {
-  "name": "lint-config",
-  "version": "1.0.0",
-  "description": "pnpm 管理的monorepo项目",
-  "scripts": {
-    "eslint:fix": "eslint packages/eslint-config/test/**/*.{js,ts,vue} --fix",
-    "eslint:quiet": "eslint packages/eslint-config/test/**/*.{js,ts,vue}",
-    "stylelint:fix": "stylelint packages/eslint-config/test/**/*.{scss,css,vue} --fix",
-    "stylelint:quiet": "stylelint packages/eslint-config/test/**/*.{scss,css,vue}"
-  },
-  "keywords": [
-    "monorepo",
-    "pnpm"
-  ],
-  "author": "solumon",
-  "license": "ISC",
-  "devDependencies": {
-    "@solumon/eslint-config-base": "workspace:*",
-    "eslint": "^8.15.0"
-  }
+    "name": "lint-config",
+    "version": "1.0.0",
+    "description": "pnpm 管理的monorepo项目",
+    "scripts": {
+        "publish:eslint-config": "pnpm run publish -F @solumon/eslint-config",
+        "publish:eslint-config-base": "pnpm run publish -F @solumon/eslint-config-base",
+        "publish:stylelint-config": "pnpm run publish -F @solumon/stylelint-config",
+        "eslint:fix": "eslint packages/eslint-config/test/**/*.{js,ts,vue} --fix",
+        "eslint:quiet": "eslint packages/eslint-config/test/**/*.{js,ts,vue}",
+        "stylelint:fix": "stylelint packages/eslint-config/test/**/*.{scss,css,vue} --fix",
+        "stylelint:quiet": "stylelint packages/eslint-config/test/**/*.{scss,css,vue}"
+    },
+    "keywords": [
+        "monorepo",
+        "pnpm"
+    ],
+    "author": "solumon",
+    "license": "ISC",
+    "devDependencies": {
+        "@solumon/eslint-config-base": "workspace:*",
+        "eslint": "^8.15.0"
+    }
 }
