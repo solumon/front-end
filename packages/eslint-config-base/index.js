@@ -13,6 +13,8 @@ module.exports = {
     rules: {
         indent: ['error', 4],
         semi: ['error', 'never'],
-        'comma-dangle': ['error', 'never']
+        'comma-dangle': ['error', 'never'],
+        // vue
+        'vue/html-indent': ['error', 4]
     }
 }
