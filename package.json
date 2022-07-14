@@ -1,6 +1,6 @@
 {
     "name": "lint-config",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "pnpm 管理的monorepo项目",
     "scripts": {
         "publish:eslint-config": "pnpm publish -F @solumon/eslint-config",
